@@ -1,0 +1,201 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+
+  }
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background-color :#FFC0CB;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  nav{
+    display: flex;
+    padding: 0% 2%;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  nav img{
+    width: 120px;
+
+  }
+  .nav-links{
+    flex: 0;
+    text-align: right;
+
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color:#FF1493;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    Background:	#FF1493;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+  .text-box{
+    width: 100%;
+    color:#FF1493;
+    position: absolute;
+    top: 50%;
+    left:23%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+  }
+  .text-box h1{
+    font-size: 60px;
+
+  }
+  .text-box p{
+    margin: 10px 0 40px;
+    font-size: 10px;
+    color:#FF1493;
+  }
+  .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#FF1493;
+    border: 1px solid #FF1493;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+  }
+  .hero-btn:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 0.2s;
+  }
+  .girls1{
+    width: 200px;
+      position: fixed;
+      bottom: 40px;
+      right: 35px;
+      top: 150px;
+      left: 50px;
+    }
+  .girl1-txt{
+    color:#FF1493;
+    margin: 10px opx 40px;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+
+  } 
+  .girls2{
+    position: fixed;
+    bottom: 40px;
+    right: 35px;
+    top: 150px;
+    left: 300px;
+  }
+  .girl2-txt{
+    color: #FF1493;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+  }
+  .girls3{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    top: 150px;
+    left: 550px;
+  }
+  .girl3-txt{
+    color: #FF1493;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+  }
+  .girls4{
+    width: 400;
+     height: 500;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    top: 150px;
+    left: 800px;
+    
+  }
+  .girl4-txt{
+    color: #FF1493;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+  }
+    .girls5{
+      width: 400;
+     height: 500;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    top: 150px;
+    left: 1050px;
+    }        
+    .girl5-txt{
+      color: #FF1493;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+    }
+    .girls6{
+      width: 400;
+     height: 500;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    top: 150px;
+    left: 1300px;
+    }
+    .girl6-txt{
+      color: #FF1493;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+    }
+    .background{
+      background-color: #FFC0CB;
+    }
+    .heroine-btn{
+      font-family: 'Lobster', cursive;
+      display: inline-block;
+      text-decoration: none;
+      color:yellow;
+      border: 1px solid #FF1493;
+      padding: 12px 34px;
+      font-size: 13px;
+      background: brown;
+      position: relative;
+      cursor: pointer;
+    }
+    .heroine-btn:hover{
+      border: 1px solid #fff;
+    background: lightsalmon;
+    transition: 0.2s;
+    }
+    .bg{
+      background-color: #FFC0CB;
+    }
